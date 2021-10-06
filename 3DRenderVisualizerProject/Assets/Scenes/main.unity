@@ -338,7 +338,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOrbiting: 0
-  isPanning: 0
   xSensitivity: 50
   ySensitivity: 50
   wheelSensitivity: 50
@@ -365,7 +364,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: efc81307f0227cf439cfbf3c99aa320d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -947,13 +946,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 704228991}
   rt: {fileID: 728439631}
+  fileNameFormat: V%VH%H
   sprites: []
-  folderPath: 
   vMin: 0
   vMax: 0
   hMin: 0
   hMax: 0
   H: 0
   V: 0
-  hTurnAround: 0
-  vTurnAround: 0
+  hTurnAround: 1
+  vTurnAround: 1
